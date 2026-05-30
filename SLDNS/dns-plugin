@@ -1,0 +1,18 @@
+#test
+cd
+apt install dnsutils jq -y
+apt-get install net-tools -y
+apt-get install tcpdump -y
+apt-get install dsniff -y
+apt install grepcidr -y
+#install golang
+apt-get install golang -y
+#download source slowdns plugin
+cd
+wget -O dnstt-plugin.zip "https://raw.githubusercontent.com/Phechr-2025/ssh-hop/main/SLDNS/dnstt-plugin.zip"
+unzip dnstt-plugin.zip
+cd
+#cd dnstt/dnstt-server
+#go build
+#./dnstt-server -gen-key -privkey-file server.key -pubkey-file server.pub
+cd
